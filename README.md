@@ -1,6 +1,43 @@
 # Recursive-Maze-Solver
-Java recursive algorithm to solve given text based mazes
-- saves output to PPM file
+Recursive pathfinding algorithm to solve text based mazes simulating food delivery.
+
+ex: 
+```
+31
+31
+###############################
+#           #       #       1 #
+### ############# ### ### # ###
+#1# #   # #         # # # #   #
+# # # ### ### ### ##### ##### #
+#       # #   #1  #       # # #
+### ##### ### ### ### ##### # #
+#       #   # #   # #         #
+##### ### # ##### # ####### ###
+# # #   # # #     #     #     #
+# # # ### ### ##### ### # #####
+# #               #   #       #
+# # ### # ####### # ##### #####
+#     # # #   #         # #   #
+### # ####### ##### # ### # # #
+#S# #   #   #     # #   # # # #
+# # # ### ##### ### ##### ### #
+#   # #   # #  1  #   #       #
+# # # ### # # ##### # # # #####
+# # #       #   # # #1# #     #
+##### # # # # ### # ##### ### #
+#   # # # # #     #   #     # #
+# ##### ### # ######### ### ###
+# #   # # #     #     #   #   #
+# # ##### # ##### ########### #
+#     #       #   #           #
+# # # # ### ##### # ####### # #
+# # #     # #           # # # #
+# # ##### # ### # ### ### ### #
+# #   #1  # #   #   #     #   #
+###############################
+```
+
 - Scans for all possible solutions and outputs the optimal route
 - fastest route between multiple destinations
-- has additional tip calculations
+- saves output to PPM file
