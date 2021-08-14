@@ -51,6 +51,4 @@ Recursive pathfinding algorithm to solve text based mazes simulating food delive
 - saves output to PPM file
 
 ### ex:
-
-
-
+![image](https://user-images.githubusercontent.com/51883176/129429886-46d25c30-a312-4bf3-878f-30ae339eb959.png)
